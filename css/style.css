@@ -1,0 +1,161 @@
+html, body {
+	margin:0px;
+	height:100%;
+}
+body {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	font-family:lucida grande, tahoma, verdana, arial, sans-serif;
+}
+
+.button{
+border-color:#DDDDDD #BBBBBB #BBBBBB #DDDDDD;
+border-style:solid;
+border-width:1px;
+color:#333333;
+cursor:pointer;
+font:bold 12px tahoma,arial,helvetica,sans-serif;
+margin:0 2px;
+padding:3px 5px;
+}
+.button:hover {
+border-color:#999999;
+}
+a {
+	color:#3B5998;
+	cursor:pointer;
+	outline-style:none;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+#loading-mask {
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:20000;
+	background-color:white;
+}
+#loading {
+	position:absolute;
+	left:45%;
+	top:40%;
+	padding:2px;
+	z-index:20001;
+	height:auto;
+	width: 300px;
+}
+#loading a {
+	color:#225588;
+}
+#loading .loading-indicator {
+	background:white;
+	color:#444;
+	font:bold 13px tahoma, arial, helvetica;
+	padding:10px;
+	margin:0;
+	height:auto;
+}
+#loading-msg {
+	font: normal 10px arial, tahoma, sans-serif;
+}
+#win-loading {
+	background-color: #BAD2F6;
+	text-align: left;
+}
+#win-loading .win-indicator {
+	background:url('../images/loadingBar.gif') no-repeat center;
+	height:100%;
+	vertical-align:middle;
+	position:relative;
+	top: 0px;
+	left:0px;
+}
+.menu {
+	width:1000px;
+	height:50px;
+	background-image:url('../imagenes/menuTop_button.jpg');
+	margin-left:auto;
+	margin-right:auto;
+	font-size:12px;
+	font-family:tahoma;
+	font-weight:bold;
+}
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.menu ul li {
+	display: inline;
+	margin-right:30px;
+}
+.menu ul li a {
+	text-decoration: none;/*padding: .2em 1em;*/
+	color: #fff;/*background-color: #036;*/
+}
+.menu ul li a:hover {
+	color: #fff;
+}
+.table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#ffffff;
+	float:left;
+	margin-left:90px;
+	text-align:center;
+	font-weight:bold;
+	padding-top:10px;
+}
+
+
+.tb-insert {background-image:url(../imagenes/icons/application_add.png) !important;}
+.tb-edit   {background-image:url(../imagenes/icons/application_edit.png) !important;}
+.tb-delete {background-image:url(../imagenes/icons/application_delete.png) !important;}
+.tb-detail {background-image:url(../imagenes/icons/application_detail.png) !important;}
+.tb-refresh{background-image:url(../imagenes/icons/application_refresh.png) !important;}
+.tb-report {background-image:url(../imagenes/icons/printer.png) !important;}
+.tb-money {background-image:url(../imagenes/icons/money_arrow.png) !important;}
+.ux-helpicon-icon {background-image:url(../imagenes/icons/help.png) ! important;cursor:pointer;}
+
+
+.search-item {
+border-color:#FFFFFF #FFFFFF #EEEEEE;
+border-style:solid;
+border-width:1px;
+color:#555555;
+font-family:lucida grande, tahoma, verdana, arial, sans-serif;
+font-size:10px;
+padding:3px 10px;
+white-space:normal;
+}
+
+.search-item h3 {
+color:#222222;
+display:block;
+font-family:inherit;
+font-size:inherit;
+font-size-adjust:inherit;
+font-stretch:inherit;
+font-style:inherit;
+font-variant:inherit;
+font-weight:bold;
+line-height:inherit;
+}
+
+.search-item h3 span {
+clear:none;
+display:block;
+float:right;
+font-weight:normal;
+margin:0 0 5px 5px;
+/*width:100px;*/
+}
+.search-item span {
+font-size:11px;
+}

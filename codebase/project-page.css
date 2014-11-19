@@ -1,0 +1,543 @@
+/* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+
+html,div, span, applet, object,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font,  ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, fieldset, form, label, legend,
+caption, tbody, tfoot, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+
+:focus {
+	outline: 0;
+}
+
+/**************************************   BODY ********************************************/
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+	font: 11px/1.4 Tahoma, Arial, Helvetica, sans-serif;
+	color: #484848;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+ }
+/**************************************   BODY ********************************************/
+
+
+
+
+/**************************************   IMAGENES ********************************************/
+
+img {
+    border-width: 0;
+}
+/**************************************   IMAGENES ********************************************/
+
+
+
+
+
+
+
+/**************************************** IFRAME *************************************************/
+iframe{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/**************************************** IFRAME *************************************************/
+
+ol, ul {
+	list-style: none;
+}
+
+
+caption{
+	font-weight: normal;
+}
+
+
+
+
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+p { margin: 0.7em 0 }
+
+/**************************************************** TITULOS H *****************************************/
+
+h1 {
+	font: bold 150%  Lucida Grande, Arial, sans-serif; 
+	font-weight: bold;
+	margin: 0 0 0px 0;
+	color: #484848;
+	text-shadow: 1px 1px 6px #fff;}
+
+h2 {
+    font-size: 130%;
+    font-weight: bold;
+	margin: 0 0 0px 0;
+	border-bottom: 1px solid #a0a0a0;
+	color: #484848;
+	text-shadow: 1px 1px 6px #fff;}
+h3{
+	font: bold 12px/14px  Lucida Grande, Arial, sans-serif;
+	color: #484848;
+}
+h4{
+	font: bold 16px/16px  Lucida Grande, Arial, sans-serif;
+	color: #0482AD;
+}
+h5{
+    font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 0px 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 6px #fff;}
+}
+
+
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/**************************************************** TITULOS H *****************************************/
+
+
+
+
+
+
+/*******************************************   links estilos *******************************************/
+
+
+	a { color: #101010; text-decoration: none }
+	a:hover { background-color: #505050; color: white;  }
+	
+	
+/*******************************************   links estilos *******************************************/
+
+
+
+
+
+
+
+/*******************************************   LISTAS *******************************************/
+
+
+	ul { margin: 0.7em 0 0.7em 2em; }
+	ol { margin: 0.7em 0 0.7em 2em; }
+  	li { display: list-item;}
+  
+ol, ul {
+	list-style: none;
+}
+  
+ol, ul, li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}  
+
+/*******************************************   LISTAS *******************************************/
+
+
+pre { border: 1px solid #e0e0e0; background-color: #000000; color: white; padding: 1em; font: 90% "Courier New", "Courier New", "Courier", monospace; margin: 1em 0; overflow: auto }
+  pre .green { color: #00CC00; }
+  pre .blue { color: #0000CC; }
+  
+code { font-family: "Courier New", "Courier New", "Courier", monospace }
+
+dl { margin: 1em 0 }
+  dt { font-weight: bold; margin: 0 0 0.2em 0 }
+  dd { margin: 0 0 0.5em 0 }
+  
+dl.docs {}
+  dl.docs dt { font-family: "Courier New", "Courier New", "Courier", monospace }
+
+
+/***************************************** TABLAS ****************************************************/
+table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 1;
+	
+}
+
+
+.sample_header{
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-size: 11px;
+	width: 100%;
+	height: 20px;
+	background: #99aabe;
+	border: 0;
+	margin-bottom: 10px;
+}
+.sample_footer{
+    font-family: Lucida Grande, Arial, sans-serif;
+	font-size: 20px;
+	width: 100%;
+	height: 20px;
+	background: #99aabe;
+	border: 0;
+	margin-bottom: 10px;
+}
+
+
+.gradient-style
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    position: relative;
+	height: 26px;
+    left: 0px;
+	top: 0px;
+    border: none;
+	background-color: none;
+    background-image: url("../imgs/dhxmenu_standard/dhtmlxmenu_top_bg_middle.gif");
+	-moz-user-select: none;
+}
+.line-style
+{
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0px;
+	padding: 2px;
+	color: #FFF;
+	border-top: 0px solid #fff;
+    background-color: #4D7986;
+    font-weight: bold;
+
+}
+
+
+
+table {}
+  td {  padding: 0.3em }
+  td {  font: 11px/1.4 Tahoma, Arial, Helvetica, sans-serif; }
+  td {  font-weight: normal; }
+  th {  vertical-align: middle;  }
+  th {  font-weight: bold }
+  th {  font-weight: normal; }
+
+
+/***************************************** TABLAS ****************************************************/
+
+  
+  
+/***************************************** Forumulario estilos ****************************************************/
+select
+{
+	font-family:  Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+input{
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color: #505050;
+  
+}
+
+textarea {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+    color: #666;
+
+}
+
+
+input:focus, text-area: focus {
+    background: #eee;
+}
+
+
+
+/***************************************** Forumulario estilos ****************************************************/
+
+
+
+
+
+  
+
+
+
+
+
+/**********************************************   CLASES   **************************************++*********************/
+
+.titulo2  {
+	color: #fff;
+  	font-weight: bold;
+  	font-size: 30px;
+  	font-family: Lucida Grande, Arial, sans-serif;
+}
+.titulo3  {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Lucida Grande", Arial, sans-serif;
+}
+.titulo4  {
+    color: #000;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.subtitulo  {
+	position: relative;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	background: #006532 url(../imagenes/images/gradient-dark-stripe.png) repeat-x;;
+	padding: 0px 0 2px 0px;
+	margin: 00px 0 00px;
+	font: bold 12px "Lucida Grande", Arial, sans-serif;
+	
+}
+
+.caption { font-size: 90%; margin: 1em 0 -1em 3px; color: #303030; }
+  
+.first { margin-top: 0; }
+.cl { clear: left; }
+.cr { clear: right; }
+.cb { clear: both; }
+/***********************************************************  I D *******************************************************/
+#background{
+  background-image: url(../imagenes/bac.png)     ;
+}
+
+
+#titulo  {
+	position: relative;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	background: #006532 url(../imagenes/images/gradient-dark-stripe.png) repeat-x;;
+	padding: 0px 0px 0px 0px;
+	margin: 00px 0px 0px 00px;
+	word-spacing: 3;
+	font: 22px  Lucida Grande, Arial, sans-serif;
+}
+
+#contenido {
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 0px 0;
+  color: #ffffff;
+  text-shadow: 1px 1px 6px #fff;
+}
+
+#submit {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+    color: #666;
+}
+
+
+#num_docs
+{
+	margin:0;
+	font-family: "Century Gothic";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+    background-image: url(../imagenes/login/toolbar.jpg);
+	margin:0
+}
+
+#resultados
+{
+overflow:scroll-y;
+height:420px;
+}
+
+#datos
+{
+	background-color: #F4F4F4;
+	border-left-width: 2px;
+	border-left-style: dotted;
+	border-left-color: #BBBBFF;
+	
+}
+
+
+#datos_documento
+{
+	font-family: "Century Gothic";
+	font-size:0.8em;
+	border: 1px solid #003399;
+	background-color:#BBBBFF
+}
+
+#datos_documento tr th
+{
+	font-family: "Century Gothic";
+	font-size:0.9em;
+	background-color: #8C8CFF;
+	text-align:left;
+	vertical-align:top;
+	border: 1px solid #000000;
+}
+
+
+#alert{
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14;
+  color: #FF0000 ;
+  text-align:center;
+  	font-weight: bold;
+}
+#verde  {
+	position: relative;
+	color: #006600;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding: 0px 0px 0px 0px;
+	margin: 00px 0px 0px 00px;
+	font: 70px "Lucida Grande", Arial, sans-serif;
+  font-weight: bold
+}
+#rojo  {
+	position: relative;
+	color: #990000;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding: 0px 0px 0px 0px;
+	margin: 00px 0px 0px 00px;
+	font: 70px "Lucida Grande", Arial, sans-serif;
+  font-weight: bold
+}
+
+#contenedor{
+    text-align: left;
+    margin: 10px auto;
+    width: 80%;
+}
+
+#container { width: 700px; margin: 0 auto; padding: 10px 0;}
+  
+#sidebar { float: right; width: 180px; }
+
+  #sidebar ul { margin: 0; padding: 0; }
+  #sidebar li { margin: 0; padding: 0; display: block; list-style: none; }
+
+  ul#project-nav { margin-bottom: 1em; }
+    ul#project-nav li { border-bottom: 1px solid #a0a0a0; }
+    ul#project-nav a { display: block; padding: 4px; }
+
+  ul#ohoa-nav { font-size: 90%; }
+    ul#ohoa-nav a { display: block; padding: 2px 4px; }
+
+#main { margin-right: 200px; }
+
+#pixel-trap { display: block; text-transform: lowercase; margin-top: 1em }
+  #pixel-trap img { vertical-align: middle }
+  
+#feedback-form { display: none; }
+  #feedback-form label { display: block; margin: 0.5em 0 0.2em 0 }
+  	#feedback-form label.first { margin-top: 0 }
+  #feedback-form input.text { width: 300px }
+  #feedback-form textarea { width: 300px; height: 100px; }
+  #feedback-form .buttons { margin-top: 0.5em; text-align: right }
+/***********************************************************  I D *******************************************************/
+
+
+
+/*************************************************** MENU CSS  Pequeño******************************************+*************/
+
+/* MENU CSS - don't modify */
+
+ #nav { display: block; margin: 0; padding: 0; position: relative; }
+  #nav li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; }
+  #nav a { display: block; }
+  #nav ul { display: none; position: absolute; left: 0; margin: 0; padding: 0; }
+  * html #nav ul { line-height: 0; } /* IE6 "fix" */
+  	#nav ul a { zoom: 1; } /* IE6/7 fix */
+    #nav ul li { float: none; }
+    #nav ul ul { top: 0; }
+
+/* Essentials - configure this */
+
+#nav ul { width: 130px; }
+#nav ul ul { left: 131px; }
+
+/* Everything else is theming */
+
+#nav { height: 24px; background-color: #99aabe }
+#nav *:hover { background-color: none; }
+#nav a { border-right: 1px solid white; color: white; font-size: 12px; padding: 6px; line-height: 1; }
+  #nav li.hover a { background-color: #5E5A5A; }
+  #nav ul { top: 25px; }
+    #nav ul li a { background-color: #5E5A5A; }
+      #nav ul a.hover { background-color: #30A8C3; }
+   #nav ul a { border-bottom: 1px solid white; border-right: none; opacity: 0.9; filter: alpha(opacity=90); }
+/* #nav ul a { border-bottom: none; } - I also needed this for IE6/7 */
+/************* MENU CSS ********************/
+
+
+

@@ -1,0 +1,118 @@
+html,div, a,{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+line-height: 1;
+    font: 14px/1.4 verdana;
+	color: #484848;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+ }
+
+img {
+    border-width: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.h1 {
+	font: 14px verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 0px 0;
+	color: #484848;
+	text-shadow: 1px 1px 6px #fff;
+}
+.h2 {
+	font: 13px  verdana, Tahoma, Arial, Helvetica, sans-serif;
+	
+	margin: 0 0 0px 0;
+	color: #484848;
+	text-shadow: 1px 1px 6px #fff;
+}
+.h3 {
+	font: 13px  verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 0px 0;
+	color: #484848;
+	text-shadow: 1px 1px 6px #fff;
+}
+
+	a { color: #101010; text-decoration: none }
+	a:hover { background-color: #505050; color: white;  }
+	
+	ul { margin: 0.7em 0 0.7em 2em; }
+	ol { margin: 0.7em 0 0.7em 2em; }
+  	li { display: list-item;}
+  
+ol, ul {
+	list-style: none;
+}
+  
+ol, ul, li{
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}  
+
+table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 1;
+	
+}
+
+table {}
+  td {  padding: 0.3em }
+  td {  font: 14px/1.4 verdana; }
+  th {  font: 10px/1.4 verdana;  }
+  th {  font-weight: bold }
+
+input{
+    font-family: verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+    color: #505050;
+  font-weight: bold
+}
+
+textarea {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+    color: #666;
+
+}
+
+
+input:focus, text-area: focus {
+    background: #eee;
+}

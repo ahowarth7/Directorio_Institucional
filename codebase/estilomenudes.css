@@ -1,0 +1,84 @@
+/* Navigation */
+.nav ul { 
+	/*list-style: none;
+	margin: 0;
+	padding: 0;
+	z-index:999999;*/
+}
+
+.nav {
+  /*font-family: Arial, Helvetica, sans-serif;
+  z-index: 100;*/
+  position: relative;
+}
+.nav a{
+	color:#fff;
+}
+.nav li {
+  
+  /*float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  BORDER:1px;
+  background-color:red;*/
+  height:35;
+  /*background-color:red;*/
+  margin-left:-20px;
+  margin-bottom:-10px;
+ 
+}
+/*.nav li a, .nav li a:link, .nav li a:active, .nav li a:visited {*/
+/*
+.nav li ul li{
+  font: bold 12px Arial, Helvetica, sans-serif;
+  color: #000;
+  display: inline;
+  padding: 0 9px;
+  text-transform: upercase;
+  text-decoration: none;
+  /*background-image:none !important;* /
+  text-indent:0px !important;
+}*/
+
+
+
+.nav ul {
+
+  /*border-bottom: 1px solid #000;
+  list-style: none;*/
+  margin: 13; /*Cambia la distancia entre el titulo del menu general y el menu desplegable*/
+  width: 800px;
+  position: absolute;
+  top: -999em;
+  left: -350px;
+
+}
+.nav li:hover ul{
+  top: 25px;
+}
+
+
+.nav ul li
+{
+	display: inline;
+	list-style-type: none;
+	padding: 3px 15px 3px 10px;
+	/*background-color:orange;*/
+	background-image:url(../imagenes/back_btn_submnu.jpg);
+	border: 1px solid #000;
+	
+}
+
+/*
+.nav ul a {
+  border: 1px solid #000;
+  border-bottom: 0;
+  padding-right: 20px;
+  width: 180px;
+  height:20px;
+  white-space: nowrap;
+}
+*/
+
+
