@@ -37,12 +37,12 @@ switch ($tipo_host)
 // CONEXION A LA BASE DE DATOS Y SELECION DE BASE DE DATOS
 //************************************************************
 
-$cn = @mysql_connect($database_server,$database_user,$database_pass);
+$cn = @mysql_connect($database_server,$database_user,$database_pass) or die('No se pudo conectar: ' . mysql_error());
 
 if(!$cn){
     echo "<div align='center' class='error'>NO A SE A PODIDO REALIZAR LA CONEXION CON EL SISTEMA</div>";
 }elseif(!@mysql_select_db($database_name)){
-    echo "<div> NO A SIDO POSIBLE CONECTARSE A LA BASE DE DATOS</div>";  
+    mysql_select_db('dbname') or die('No se pudo seleccionar la base de datos'); 
 }
 
 ?>
